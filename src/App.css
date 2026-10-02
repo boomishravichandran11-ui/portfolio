@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-color;
+  box-sizing: border-box;
 }
 
 body {
@@ -69,13 +69,14 @@ header a:hover {
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
   text-align: center;
   color: #fff;
+  padding-top: 100px;
 }
 
 #showcase h1 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 55px;
   margin-bottom: 10px;
 }
